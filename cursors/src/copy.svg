@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter7330" x="-.22025" y="-.13579" width="1.4405" height="1.2716" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.1924028"/>
+  </filter>
+  <filter id="filter7358" x="-.222" y="-.222" width="1.444" height="1.444" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.2025"/>
+  </filter>
+ </defs>
+ <g>
+  <g>
+   <path d="m3.6745 2.8678c-0.46695 0.0551-0.823 0.4979-0.8125 1.0938v16c5e-5 0.52358 0.47642 0.99995 1 1h3.5938l2.6875 2.6875c0.29466 0.29526 0.78339 0.37451 1.1563 0.1875l1-0.5c0.32794-0.15944 0.55359-0.51046 0.5625-0.875v-3.5938l2.7188-2.7188c0.36548-0.36968 0.36548-1.0366 0-1.4062l-11-11.5c-0.3075-0.3075-0.62608-0.40806-0.90625-0.375z" color="#000000" filter="url(#filter7330)" opacity=".2" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+   <path d="m20.362 15.962c-3.5898 0-6.5 2.9102-6.5 6.5s2.9102 6.5 6.5 6.5 6.5-2.9102 6.5-6.5-2.9102-6.5-6.5-6.5z" color="#000000" filter="url(#filter7358)" opacity=".2" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+   <path d="m2.862 2.9615v16c5e-5 0.52358 0.47642 0.99995 1 1h3.5938l2.6875 2.6875c0.29466 0.29526 0.78339 0.37451 1.1563 0.1875l1-0.5c0.32794-0.15944 0.55359-0.51046 0.5625-0.875v-3.5938l2.7188-2.7188c0.36548-0.36968 0.36548-1.0366 0-1.4062l-11-11.5c-0.81999-0.81999-1.7356-0.23461-1.7188 0.71875z" color="#000000" fill="#fff" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
+  </g>
+  <path d="m3.862 18.949v-16l11 11.5-3 3v4l-1 0.5-3-3z" fill="#4d4d4d"/>
+  <circle cx="20.362" cy="21.449" r="6.5" fill="#fff"/>
+  <path d="m19.8 15.962c-2.7734 0.28165-4.9375 2.6523-4.9375 5.5 0 3.0376 2.4624 5.5 5.5 5.5s5.5-2.4624 5.5-5.5-2.4624-5.5-5.5-5.5c-0.18985 0-0.37761-0.0188-0.5625 0z" fill="#11d116"/>
+  <path d="m19.862 17.962v3h-3v1h3v3h1v-3h3v-1h-3v-3z" fill="#fff"/>
+ </g>
+</svg>

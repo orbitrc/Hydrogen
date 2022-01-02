@@ -10,3 +10,7 @@ Hydrogen cursor theme uses a slightly different naming convention than the other
 
 For consistency, all name delimiters use underscores.
 
+SDDM
+----
+
+A Hydrogen SDDM theme.

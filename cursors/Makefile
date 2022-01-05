@@ -53,6 +53,8 @@ PNG = png/x1/arrow.png \
 	png/x1.5/split_ver.png \
 	png/x2/split_ver.png
 
+CONFIG = $(wildcard src/config/*.cursor)
+
 default: $(PNG)
 	mkdir -p png
 
@@ -67,3 +69,6 @@ png/x1.5/%.png: src/%.svg
 png/x2/%.png: src/%.svg
 	mkdir -p png/x2
 	inkscape --export-filename=$@ --export-width=48 --export-height=48 $<
+
+clean:
+	rm -r png

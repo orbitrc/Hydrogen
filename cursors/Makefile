@@ -56,7 +56,13 @@ PNG = png/x1/arrow.png \
 CONFIG = $(wildcard src/config/*.cursor)
 
 default: $(PNG)
-	mkdir -p png
+	mkdir -p Hydrogen/cursors
+	$(foreach name,$(CONFIG), \
+		make Hydrogen/cursors/`basename -s .cursor $(name)`;)
+	cp index.theme Hydrogen/index.theme
+
+Hydrogen/cursors/%: src/config/%.cursor
+	xcursorgen $^ $@
 
 png/x1/%.png: src/%.svg
 	mkdir -p png/x1

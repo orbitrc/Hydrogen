@@ -78,3 +78,4 @@ png/x2/%.png: src/%.svg
 
 clean:
 	rm -r png
+	rm -r Hydrogen

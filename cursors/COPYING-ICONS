@@ -13,6 +13,11 @@ The Hydrogen Cursor Theme
      - forbidden
      - help
      - link
+     - size_all
+     - size_bdiag
+     - size_fdiag
+     - size_hor
+     - size_ver
      - split_hor
      - split_ver
 

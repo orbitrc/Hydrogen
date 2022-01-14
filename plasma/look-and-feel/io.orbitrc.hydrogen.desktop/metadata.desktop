@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=Hydrogen Plasma theme
+
+Encoding=UTF-8
+Kyewords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Name=Hydrogen
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-PluginInfo-Author=Orbit Research Centre
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-Name=io.orbitrc.hydrogen.desktop
+X-KDE-PluginInfo-Website=https://www.orbitrc.io/
+X-Plasma-MainScript=defaults
+

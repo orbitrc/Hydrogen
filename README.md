@@ -10,6 +10,11 @@ Hydrogen cursor theme uses a slightly different naming convention than the other
 
 For consistency, all name delimiters use underscores.
 
+Plasma
+------
+
+Plasma splash screen theme.
+
 SDDM
 ----
 

@@ -76,11 +76,14 @@ png/x2/%.png: src/%.svg
 	mkdir -p png/x2
 	inkscape --export-filename=$@ --export-width=48 --export-height=48 $<
 
-install:
-	if [ -d "/usr/share/icons/Hydrogen" ]; then \
-		rm -r /usr/share/icons/Hydrogen; \
+install: $(DESTDIR)/usr/share/icons
+	if [ -d "$(DESTDIR)/usr/share/icons/Hydrogen" ]; then \
+		rm -r $(DESTDIR)/usr/share/icons/Hydrogen; \
 	fi
-	cp -r Hydrogen /usr/share/icons/
+	cp -r Hydrogen $(DESTDIR)/usr/share/icons/
+
+$(DESTDIR)/usr/share/icons:
+	mkdir -p $(DESTDIR)/usr/share/icons
 
 clean:
 	rm -r png

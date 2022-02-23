@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="1"
-     inkscape:cx="-40"
-     inkscape:cy="-84"
+     inkscape:zoom="22.627417"
+     inkscape:cx="10.606602"
+     inkscape:cy="12.683728"
      inkscape:window-width="1425"
      inkscape:window-height="833"
      inkscape:window-x="367"
      inkscape:window-y="144"
      inkscape:window-maximized="0"
-     inkscape:current-layer="icon-group"
+     inkscape:current-layer="icon-color"
      units="px">
     <inkscape:grid
        type="xygrid"
@@ -187,12 +187,12 @@
            transform="translate(20.004039,0.31264328)"
            style="filter:url(#filter31649)">
           <path
-             style="color:#000000;fill:#ff0000;fill-opacity:0.984436;stroke-width:0.264583;-inkscape-stroke:none"
+             style="color:#000000;fill:#ff3b30;fill-opacity:1;stroke-width:0.264583;-inkscape-stroke:none"
              d="m 127.69845,75.777241 c -0.005,-0.05057 0.0566,-0.141347 0.0566,-0.141347 l 0.13122,-0.131212 0.13121,-0.131213 c 0,0 0.0934,-0.06627 0.1458,-0.06109 0.0691,0.0069 0.17247,0.116941 0.17247,0.116941 l 4.17235,4.172477 c 0,0 0.12089,0.112126 0.12204,0.186358 10e-4,0.06629 -0.10381,0.169572 -0.10381,0.169572 l -0.16885,0.168848 c 0,0 -0.10402,0.101192 -0.17975,0.103807 -0.0815,0.0029 -0.19439,-0.103768 -0.19439,-0.103768 l -4.17237,-4.172511 c 0,0 -0.10606,-0.107285 -0.11256,-0.176862 z"
              id="rect26077"
              sodipodi:nodetypes="acccaccaccscca" />
           <path
-             style="color:#000000;fill:#ff0000;fill-opacity:0.984436;stroke-width:0.264583;-inkscape-stroke:none"
+             style="color:#000000;fill:#ff3b30;fill-opacity:1;stroke-width:0.264583;-inkscape-stroke:none"
              d="m 132.1569,75.311584 c 0.0505,-0.005 0.14135,0.0566 0.14135,0.0566 l 0.13121,0.131214 0.13121,0.13121 c 0,0 0.0663,0.0934 0.0611,0.145805 -0.007,0.06911 -0.11692,0.172495 -0.11692,0.172495 l -4.17248,4.17235 c 0,0 -0.11226,0.120751 -0.18637,0.122026 -0.0663,9.76e-4 -0.16957,-0.103811 -0.16957,-0.103811 l -0.16885,-0.168851 c 0,0 -0.10119,-0.104015 -0.1038,-0.179747 -0.003,-0.08151 0.10375,-0.194404 0.10375,-0.194404 l 4.17251,-4.17237 c 0,0 0.10729,-0.106057 0.17689,-0.112537 z"
              id="rect26077-9"
              sodipodi:nodetypes="acccaccaccscca" />

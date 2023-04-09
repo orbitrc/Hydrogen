@@ -106,6 +106,7 @@ default: $(PNG) $(ANIM_PNG)
 	$(foreach name,$(CONFIG), \
 		make Hydrogen/cursors/`basename -s .cursor $(name)`;)
 	cp index.theme Hydrogen/index.theme
+	./link.py
 
 Hydrogen/cursors/%: src/config/%.cursor
 	xcursorgen $^ $@

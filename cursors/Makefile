@@ -28,6 +28,9 @@ PNG = png/x1/arrow.png \
 	png/x1/openhand.png \
 	png/x1.5/openhand.png \
 	png/x2/openhand.png \
+	png/x1/no_impl.png \
+	png/x1.5/no_impl.png \
+	png/x2/no_impl.png \
 	png/x1/pointer.png \
 	png/x1.5/pointer.png \
 	png/x2/pointer.png \

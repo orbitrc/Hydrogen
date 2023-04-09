@@ -53,9 +53,52 @@ PNG = png/x1/arrow.png \
 	png/x1.5/split_ver.png \
 	png/x2/split_ver.png
 
+ANIM_PNG = png/x1/wait-01.png \
+	png/x1/wait-02.png \
+	png/x1/wait-03.png \
+	png/x1/wait-04.png \
+	png/x1/wait-05.png \
+	png/x1/wait-06.png \
+	png/x1/wait-07.png \
+	png/x1/wait-08.png \
+	png/x1/wait-09.png \
+	png/x1/wait-10.png \
+	png/x1/wait-11.png \
+	png/x1/wait-12.png \
+	png/x1/wait-13.png \
+	png/x1/wait-14.png \
+	png/x1.5/wait-01.png \
+	png/x1.5/wait-02.png \
+	png/x1.5/wait-03.png \
+	png/x1.5/wait-04.png \
+	png/x1.5/wait-05.png \
+	png/x1.5/wait-06.png \
+	png/x1.5/wait-07.png \
+	png/x1.5/wait-08.png \
+	png/x1.5/wait-09.png \
+	png/x1.5/wait-10.png \
+	png/x1.5/wait-11.png \
+	png/x1.5/wait-12.png \
+	png/x1.5/wait-13.png \
+	png/x1.5/wait-14.png \
+	png/x2/wait-01.png \
+	png/x2/wait-02.png \
+	png/x2/wait-03.png \
+	png/x2/wait-04.png \
+	png/x2/wait-05.png \
+	png/x2/wait-06.png \
+	png/x2/wait-07.png \
+	png/x2/wait-08.png \
+	png/x2/wait-09.png \
+	png/x2/wait-10.png \
+	png/x2/wait-11.png \
+	png/x2/wait-12.png \
+	png/x2/wait-13.png \
+	png/x2/wait-14.png
+
 CONFIG = $(wildcard src/config/*.cursor)
 
-default: $(PNG)
+default: $(PNG) $(ANIM_PNG)
 	mkdir -p Hydrogen/cursors
 	$(foreach name,$(CONFIG), \
 		make Hydrogen/cursors/`basename -s .cursor $(name)`;)
@@ -75,6 +118,9 @@ png/x1.5/%.png: src/%.svg
 png/x2/%.png: src/%.svg
 	mkdir -p png/x2
 	inkscape --export-filename=$@ --export-width=48 --export-height=48 $<
+
+$(ANIM_PNG): src/wait-src-resample.svg
+	./wait.py
 
 install: $(DESTDIR)/usr/share/icons
 	if [ -d "$(DESTDIR)/usr/share/icons/Hydrogen" ]; then \
